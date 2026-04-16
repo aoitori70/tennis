@@ -10,7 +10,7 @@
     <main role="main" class="container" style="padding:60px 15px 0">
         <div>
             <h1>お知らせ</h1>
-            <p><?php echo $info; ?></p>
+            <p><?php echo nl2br($info,false); ?></p>
         </div>
     </main>
 
